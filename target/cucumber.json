@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-24T07:28:35.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Wikipedia Search Functionality Title Verification",
+        "description": "",
+        "id": "wiki-search-functionalities;wikipedia-search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 1752000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4319000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Wikipedia home page",
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_is_on_wikipedia_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User types Steve Jobs in the wiki search box",
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_types_steve_jobs_in_the_wiki_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1310000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_clicks_wiki_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sees Steve Jobs is in the wiki title",
+            "match": {
+              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_sees_steve_jobs_is_in_the_wiki_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SteveJobs"
+          }
+        ]
+      }
+    ],
+    "name": "Wiki search functionalities",
+    "description": "",
+    "id": "wiki-search-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/wiki.feature",
+    "tags": []
+  }
+]
