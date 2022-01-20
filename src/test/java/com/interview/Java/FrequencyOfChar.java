@@ -24,7 +24,7 @@ public class FrequencyOfChar {
             }
         }
     printDuplicate();
-        printDuplicates("");
+        printDuplicates();
 
     }
     public static void printDuplicate() {
@@ -44,9 +44,11 @@ public class FrequencyOfChar {
         System.out.println(frequencyOfChars.entrySet());
     }
 
-    public static void printDuplicates(String str) {
-        str = "i need a break";
+    public static void printDuplicates() {
+        String str = "i need a break";
         str = str.replace(" ","").toLowerCase();
+
+        System.out.println("str = " + str);
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 

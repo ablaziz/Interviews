@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-12-24T07:28:35.750Z",
+        "start_timestamp": "2022-01-15T17:22:20.036Z",
         "before": [
           {
             "result": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 3,
-        "name": "Wikipedia Search Functionality Title Verification",
+        "name": "Find product and try to sell it without registration",
         "description": "",
-        "id": "wiki-search-functionalities;wikipedia-search-functionality-title-verification",
+        "id": "chek-functionality-of-amazon;find-product-and-try-to-sell-it-without-registration",
         "after": [
           {
             "result": {
-              "duration": 1752000000,
+              "duration": 1855000000,
               "status": "passed"
             },
             "match": {
@@ -35,65 +35,76 @@
         "steps": [
           {
             "result": {
-              "duration": 4319000000,
+              "duration": 12769000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "User is on Wikipedia home page",
+            "name": "User on the home page and search for \"fish oil 1000mg omega-3\"",
             "match": {
-              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_is_on_wikipedia_home_page()"
+              "arguments": [
+                {
+                  "val": "\"fish oil 1000mg omega-3\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_on_the_home_page_and_search_for(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 6155000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "User types Steve Jobs in the wiki search box",
+            "name": "User click on the \"Dr. Tobias Omega 3 Fish Oil – Triple Strength Dietary Nutritional Supplement – Helps Support Brain \u0026 Heart Health, Includes EPA \u0026 DHA – 2000 mg per Serving,180 Soft Gel Capsules\"",
             "match": {
-              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_types_steve_jobs_in_the_wiki_search_box()"
+              "arguments": [
+                {
+                  "val": "\"Dr. Tobias Omega 3 Fish Oil – Triple Strength Dietary Nutritional Supplement – Helps Support Brain \u0026 Heart Health, Includes EPA \u0026 DHA – 2000 mg per Serving,180 Soft Gel Capsules\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_click_on_the(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1310000000,
+              "duration": 1447000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "User clicks wiki search button",
+            "name": "User click on button Sell on Amazon",
             "match": {
-              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_clicks_wiki_search_button()"
+              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_click_on_button_sell_on_amazon()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 155000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User sees Steve Jobs is in the wiki title",
+            "name": "User go to Log in Page",
             "match": {
-              "location": "com.interview.cucumber.step_definitions.Wiki_step_definition.user_sees_steve_jobs_is_in_the_wiki_title()"
+              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_go_to_log_in_page()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@SteveJobs"
+            "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Wiki search functionalities",
+    "name": "Chek functionality of Amazon",
     "description": "",
-    "id": "wiki-search-functionalities",
+    "id": "chek-functionality-of-amazon",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/wiki.feature",
+    "uri": "file:src/test/resources/features/amazon.feature",
     "tags": []
   }
 ]
