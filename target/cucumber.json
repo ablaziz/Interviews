@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-15T17:22:20.036Z",
+        "start_timestamp": "2022-01-24T02:44:47.722Z",
         "before": [
           {
             "result": {
@@ -15,14 +15,21 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Find product and try to sell it without registration",
+        "line": 14,
+        "name": "Get the info from DB",
         "description": "",
-        "id": "chek-functionality-of-amazon;find-product-and-try-to-sell-it-without-registration",
+        "id": "verify-the-info-from-all-environment;get-the-info-from-db",
         "after": [
           {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAJcCAYAAAASBf/6AAAAAXNSR0IArs4c6QAAEdJJREFUeJzt2MENwCAQwLDS/Xc+ViAvhGRPkHfWzMwHAAAAAMCx/3YAAAAAAMBrjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACINkdtCLS6ChKRAAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "Get the info from DB"
+              }
+            ],
             "result": {
-              "duration": 1855000000,
+              "duration": 4781000000,
               "status": "passed"
             },
             "match": {
@@ -35,60 +42,31 @@
         "steps": [
           {
             "result": {
-              "duration": 12769000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.interview.utilities.DBUtils.executeQuery(DBUtils.java:207)\r\n\tat com.interview.utilities.DBUtils.getQueryResultMap(DBUtils.java:150)\r\n\tat com.interview.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.interview.cucumber.step_definitions.DB_step_def.user_sends_a_query_to_data_base_with(DB_step_def.java:26)\r\n\tat ✽.User sends a query to DataBase with \"sbirdbj@fc2.com\"(file:///C:/Users/abdou/IdeaProjects/Interviews/src/test/resources/features/treePointVerification.feature:15)\r\n",
+              "duration": 2000000,
+              "status": "failed"
             },
-            "line": 4,
-            "name": "User on the home page and search for \"fish oil 1000mg omega-3\"",
+            "line": 15,
+            "name": "User sends a query to DataBase with \"sbirdbj@fc2.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"fish oil 1000mg omega-3\"",
-                  "offset": 37
+                  "val": "\"sbirdbj@fc2.com\"",
+                  "offset": 36
                 }
               ],
-              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_on_the_home_page_and_search_for(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6155000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User click on the \"Dr. Tobias Omega 3 Fish Oil – Triple Strength Dietary Nutritional Supplement – Helps Support Brain \u0026 Heart Health, Includes EPA \u0026 DHA – 2000 mg per Serving,180 Soft Gel Capsules\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Dr. Tobias Omega 3 Fish Oil – Triple Strength Dietary Nutritional Supplement – Helps Support Brain \u0026 Heart Health, Includes EPA \u0026 DHA – 2000 mg per Serving,180 Soft Gel Capsules\"",
-                  "offset": 18
-                }
-              ],
-              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_click_on_the(java.lang.String)"
+              "location": "com.interview.cucumber.step_definitions.DB_step_def.user_sends_a_query_to_data_base_with(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1447000000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 6,
-            "name": "User click on button Sell on Amazon",
+            "line": 16,
+            "name": "User gets DataBase information",
             "match": {
-              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_click_on_button_sell_on_amazon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User go to Log in Page",
-            "match": {
-              "location": "com.interview.cucumber.step_definitions.Amazon_step_def.user_go_to_log_in_page()"
+              "location": "com.interview.cucumber.step_definitions.DB_step_def.user_gets_data_base_information()"
             },
             "keyword": "Then "
           }
@@ -100,11 +78,11 @@
         ]
       }
     ],
-    "name": "Chek functionality of Amazon",
+    "name": "Verify the info from all environment",
     "description": "",
-    "id": "chek-functionality-of-amazon",
+    "id": "verify-the-info-from-all-environment",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/amazon.feature",
+    "uri": "file:src/test/resources/features/treePointVerification.feature",
     "tags": []
   }
 ]
